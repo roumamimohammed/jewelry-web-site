@@ -1,0 +1,22 @@
+
+    .bg-image-vertical {
+        position: relative;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto 100%;
+    }
+  .btn{
+    font-size: 1.25em;
+    border: none;
+    background: linear-gradient(to right, #f0a811 0%, #7c5f24 100%);
+  }
+    .btn:hover{
+        letter-spacing: 0.5em;
+        background: linear-gradient(to left, #f2e8da 0%, #7c5f24 100%);
+    }
+    @media (min-width: 1025px) {
+        .h-custom-2 {
+            height: 100%;
+        }
+    }
